@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" href="images/favicon/favicon.png" type="image/x-icon">
 
 </head>
 
@@ -22,26 +23,31 @@
 
     <!-- START HEADER SECTION -->
     <header class="header-bg overflow-auto ">
+        <!-- TOP TEXT AREA -->
         <section
             class="container header-text d-flex justify-content-around align-content-center bg-secondary text-white  mt-3 p-2 flex-column-reverse flex-md-row">
 
-            <h5 class=""> BODY BUILDING</h5>
-            <h5> NEED HELPS IMPROVE STRENGTH</h5>
+            <h5 class="fw-bold"> BODY <span class="text-warning">BUILDING</span></h5>
+
+            <h5 class="fw-bold"> NEED HELPS IMPROVE <span class="text-warning">STRENGTH</span></h5>
 
         </section>
-
+        
+        <!-- START HEADER HERO -->
         <section class="py-2 my-2 container">
             <main class="row g-4 h-auto align-items-center justify-content-center ">
-                <div class="col-md-9 text-white ps-2">
-                    <h3> THE ULTIMATE PRE-WORKOUT</h3>
-                    <h2> SUPPLEMENT EXPERIENCE</h2>
-                    <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> Saepe minima, minus reprehenderit
+                <!-- INTRO AREA -->
+                <div class="col-md-9 ps-2">
+                    <h3 class="text-danger fw-bold"> THE ULTIMATE PRE-WORKOUT</h3>
+                    <h2 class="text-warning fw-bold"> SUPPLEMENT EXPERIENCE</h2>
+                    <P class="text-white ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> Saepe minima, minus reprehenderit
                         aliquam magnam !</P>
-                    <button class="btn-light border-0 rounded-3 p-2 fw-bold">
+                    <button class="btn-danger border-0 rounded-3 p-2 fw-bold">
                         Contact Us
                     </button>
                 </div>
-
+                
+                <!-- FORM AREA -->
                 <div class="col-md-3 bg-secondary pb-3 ">
                     <h4 class="text-center mb-4 pt-2 text-white"> GET STARTED NOW!</h4>
 
@@ -63,31 +69,38 @@
                         </div>
 
                         <div className="text-center form-group pb-2">
-                            <input type="submit" class="form-control" value="Submit" />
+                            <input type="submit" class="form-control bg-warning fw-bold " value="Send A Message" />
                         </div>
                     </form>
                 </div>
             </main>
         </section>
-
+         <!-- END HEADER HERO -->
     </header>
     <!-- END HEADER SECTION -->
 
     <!-- START GALLERY SECTION -->
-    <section class=" bg-danger pb-3">
+    <section class=" bg-danger pb-5 ">
+        <!-- START GALLERY INTRO -->
         <div class="container">
-            <div class="pt-3 text-white">
-                <h3 class="pb-4"> ARE YOU READY TO GET IN THE BEST SHAPE OF YOUR BODY?</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel non accusantium ullam obcaecati.
-                    Obcaecati soluta maxime aut eaque beatae earum quam totam facere consequatur voluptas expedita sint
-                    consequuntur numquam optio pariatur nemo aspernatur reprehenderit, amet explicabo? Ad odio vitae
-                    quo, nihil illum eligendi inventore qui sit incidunt, eveniet laborum tempore?</p>
+            <div class="pt-3 text-white ">
+                <h3 class="pb-4 text-center fw-bolder"> ARE YOU READY TO GET IN THE BEST SHAPE OF YOUR BODY?</h3>
+                <div class="text-center px-5">
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel non accusantium ullam obcaecati.
+                        Obcaecati soluta maxime aut eaque beatae earum quam totam facere consequatur voluptas expedita
+                        sint
+                        consequuntur numquam optio pariatur nemo aspernatur reprehenderit, amet explicabo? Ad odio vitae
+                        quo, nihil illum eligendi inventore qui sit incidunt, eveniet laborum tempore?
+                    </span>
+                </div>
             </div>
         </div>
+        <!-- END GALLERY INTRO -->
 
+        <!-- START GALLERY IMAGES -->
         <div class="container pt-3 ">
             <div class="row row-cols-1 row-cols-md-3 g-4">
-                
+
                 <div class="col shadow-lg">
                     <div class="card border-0 rounded-3 h-auto">
                         <div class="inner">
@@ -113,7 +126,8 @@
                 </div>
 
             </div>
-        </div>        
+        </div>
+        <!-- END GALLERY IMAGES -->
     </section>
     <!-- END GALLERY SECTION -->
 
