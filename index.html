@@ -19,21 +19,103 @@
 </head>
 
 <body>
-<header class="header-bg overflow-auto ">
-        <section class="container">
-            <div class="header-text d-flex justify-content-around align-content-center bg-light  mt-3 p-2">
-                <h5> BODY BUILDING</h5>
-                <h5> NEED HELPS IMPROVE STRENGTH</h5>
-            </div>
-            
-            <main>
-                
+
+    <!-- START HEADER SECTION -->
+    <header class="header-bg overflow-auto ">
+        <section
+            class="container header-text d-flex justify-content-around align-content-center bg-secondary text-white  mt-3 p-2 flex-column-reverse flex-md-row">
+
+            <h5 class=""> BODY BUILDING</h5>
+            <h5> NEED HELPS IMPROVE STRENGTH</h5>
+
+        </section>
+
+        <section class="py-2 my-2 container">
+            <main class="row g-4 h-auto align-items-center justify-content-center ">
+                <div class="col-md-9 text-white ps-2">
+                    <h3> THE ULTIMATE PRE-WORKOUT</h3>
+                    <h2> SUPPLEMENT EXPERIENCE</h2>
+                    <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> Saepe minima, minus reprehenderit
+                        aliquam magnam !</P>
+                    <button class="btn-light border-0 rounded-3 p-2 fw-bold">
+                        Contact Us
+                    </button>
+                </div>
+
+                <div class="col-md-3 bg-secondary pb-3 ">
+                    <h4 class="text-center mb-4 pt-2 text-white"> GET STARTED NOW!</h4>
+
+                    <form onSubmit={}>
+                        <div class="form-group pb-2">
+                            <input type="text" name="name" placeholder="Name" class="form-control" />
+                        </div>
+
+                        <div class="form-group pb-2">
+                            <input type="phone" name="phone" placeholder="Phone No" class="form-control" />
+                        </div>
+
+                        <div class="form-group pb-2">
+                            <input type="email" name="email" placeholder="Email" class="form-control" />
+                        </div>
+
+                        <div class="form-group pb-2">
+                            <textarea name="message" rows="3" placeholder="Message" class="form-control"></textarea>
+                        </div>
+
+                        <div className="text-center form-group pb-2">
+                            <input type="submit" class="form-control" value="Submit" />
+                        </div>
+                    </form>
+                </div>
             </main>
         </section>
-    
-</header>
 
+    </header>
+    <!-- END HEADER SECTION -->
 
+    <!-- START GALLERY SECTION -->
+    <section class=" bg-danger pb-3">
+        <div class="container">
+            <div class="pt-3 text-white">
+                <h3 class="pb-4"> ARE YOU READY TO GET IN THE BEST SHAPE OF YOUR BODY?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel non accusantium ullam obcaecati.
+                    Obcaecati soluta maxime aut eaque beatae earum quam totam facere consequatur voluptas expedita sint
+                    consequuntur numquam optio pariatur nemo aspernatur reprehenderit, amet explicabo? Ad odio vitae
+                    quo, nihil illum eligendi inventore qui sit incidunt, eveniet laborum tempore?</p>
+            </div>
+        </div>
+
+        <div class="container pt-3 ">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                
+                <div class="col shadow-lg">
+                    <div class="card border-0 rounded-3 h-auto">
+                        <div class="inner">
+                            <img class="card-img-top img-fluid rounded-3" src="images/others/back.jpeg" alt="back">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col shadow-lg">
+                    <div class="card border-0 rounded-3 h-auto">
+                        <div class="inner">
+                            <img class="card-img-top img-fluid rounded-3" src="images/others/lagges.jpeg" alt="lagges">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col shadow-lg">
+                    <div class="card border-0 rounded-3 h-auto">
+                        <div class="inner">
+                            <img class="card-img-top img-fluid rounded-3" src="images/others/roff.jpeg" alt="roff">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>        
+    </section>
+    <!-- END GALLERY SECTION -->
 
     <!-- bootstrap-js-bundle -->
     <script src="js/bootstrap.bundle.min.js"></script>

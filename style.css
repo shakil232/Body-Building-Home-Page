@@ -33,8 +33,20 @@ input[placeholder], [placeholder], *[placeholder] {
 .header-bg
 {
     background-image: url('images/bg/bg-2.jpg');
-    background-position: fixed;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 530px;
+    height: 500px;
+}
+
+.inner{
+  overflow: hidden;
+}
+.inner img{
+  transition: all 1.9s ease;
+  
+}
+.inner img:hover{
+  transform: scale(1.5);
+ 
 }
