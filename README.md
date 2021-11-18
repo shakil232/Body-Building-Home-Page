@@ -11,11 +11,11 @@
 
 ### _Responsive all device image_
 
-![Landing Page](images/markdwon/responsive.PNG)
+![Landing Page](images/markdwon/body-building-responsive.png)
 
 ---
 ### _Webpage Overview full screenshot image_
 
-![Landing Page](images/markdwon/body-building-home-page.png)
+![Landing Page](images/markdwon/body-building-full-screenshot.png)
 
 ---
