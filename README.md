@@ -9,10 +9,13 @@
 ### _Web-Site Live Link_
 [click here](http://192.168.0.103:5500/index.html)
 
-_Responsive all device image_
+### _Responsive all device image_
+
 ![Landing Page](images/markdwon/responsive.PNG)
 
-_Webpage Overview full screenshot image_
+---
+### _Webpage Overview full screenshot image_
+
 ![Landing Page](images/markdwon/body-building-home-page.png)
 
 ---
